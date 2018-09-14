@@ -1,13 +1,13 @@
-#sawtooth-simplewallet
+# sawtooth-simplewallet
 A wallet application built on top of `hyperledger-sawtooth`   
 This application has two componenets.  
 1. Transaction Processor (Implemented in Java)
 2. Client Application (Implemented in Python) (Currently sawtooth does not provide client sdk for Java)
 
-#Pre-requisites
+# Pre-requisites
 This example uses docker-compose and Docker containers. If you do not have these installed please follow the instructions here: https://docs.docker.com/install/
 
-#How to Run
+# How to Run
 1. Initiating Transaction Processor
 
    `docker-compose -f simplewallet-build-tp-java.yaml up --build` (It might minutes to get all set in the container. Took 5-10 min on my machine)
